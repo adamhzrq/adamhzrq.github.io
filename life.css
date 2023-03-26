@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #edf0f1;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(#0c0c0c, #102455, #0c4250);
+}
+
+
+img {
+    border-radius: 5px;
+    float: right;
+    padding: 20px;
+}
+
+.card {
+    margin: 90px 80px 80px;
+    height: 360px;
+    box-shadow: 0 4px 8px 0 rgba(23, 23, 23, 0.2);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+}
+
+
+.para {
+    min-height: 100vh;
+    font-size: 20px;
+    position: relative;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+#text {
+    font-size: 20px;
+    min-height: 10vh;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+li, a, button {
+    font-family: helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+header {
+    background-color: #181818;
+    border-bottom: 2px solid #0088a9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    font-family: "Times New Roman";
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.color {
+    color: #0088a9;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.7);
+
+}
